@@ -1,0 +1,167 @@
+
+/*====================================================================================================================
+02. left sidebar 
+03. right-side 
+04. brand  
+====================================================================================================================*/
+/*===================================================================
+2. left sidebar 
+===================================================================*/
+.banner{
+
+
+}
+.sidebar.sidebar-text{
+	background-color: #f6f6f6;
+    text-align: center;
+    min-height: 200px;
+}
+
+.content {
+	padding: 35px;
+	display: block;
+}
+.content .sidebar-title {
+    font-size: 26px;
+    margin: 5px 0 0;
+    display: block;
+    text-transform: uppercase;
+}
+.sidebar.sidebar-text:before {
+    content: "";
+    height: 100%;
+    width: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.content hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    width: 20px;
+}
+.content li {
+    margin: 26px 0 0 0;
+    display: block;
+    line-height: 15px;
+}
+.content li a {
+    text-decoration: inherit;
+    color: black;
+    font-size: 16px;
+}
+.product-image--border {
+    border: 1px solid #e0e0e0;
+}
+
+.sidebar.top-product .product-image {
+    position: relative;
+    display: block;
+}
+.sidebar .product-legend {
+    padding: 20px 0 0;
+    text-transform: uppercase;
+}
+.sidebar.top-product .product-text {
+    width: 60%;
+    display: inline-block;
+}
+
+.sidebar.top-product .product-text h4{
+	font-size: 12px;
+	color: #000;
+	text-transform: uppercase;
+}
+.product-text p{
+    color: #000 ;
+}
+.product-text .product-price{
+	margin: 5px 0 0;
+    font-size: 12px;
+    color: #000;
+}
+
+span.product-price {}
+.product-button {
+    width: 34%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+.product-button .button--dark {
+    text-decoration: none;
+    border: 1px solid #000;
+    color: white;
+    background-color: black;
+    padding: 8px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+}
+.sidebar.top-product {}
+.brand hr{    
+    width: 100%;
+    height: 1px;
+    margin: 0 auto 30px;
+    border: 0;
+    background-color: #e0e0e0; 
+}
+
+.jewellery {
+    padding: 50px 0px;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+1. left sidebar end 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+/*===================================================================
+03. right-side 
+===================================================================*/
+.cx-fashion{
+    margin-bottom: 30px;
+}
+.cx-fashion .push-legend .push-suptitle {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+}
+.cx-fashion .push-legend {
+    padding: 20px 0 0;
+    text-transform: uppercase;
+    font-size: 0;
+}
+.cx-fashion .sidebar-title {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: #000 ;
+}
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+03. right-side  end 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+/*===================================================================
+04. brand  
+===================================================================*/
+.brand {
+    margin-bottom: 60px;
+}
+.cx-minisites .push-logo {
+    width: auto;
+    margin: 0 0 20px;
+}
+.cx-minisites  .push-suptitle {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+}
+.cx-minisites .push-legend {
+    padding: 20px 0 0;
+    text-transform: uppercase;
+    font-size: 0;
+}
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+04. brand  end 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/

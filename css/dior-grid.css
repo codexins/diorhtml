@@ -1,0 +1,30 @@
+
+header,footer{}
+section{
+	margin-left: 22px;
+	margin-right: 22px;
+}
+.mrg-lr{
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.col {
+    padding: 0 20px;
+}
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.row {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+@media (min-width: 1200px){
+
+	.grid.container{
+		width: inherit;
+		max-width: 1440px;
+	}
+
+}

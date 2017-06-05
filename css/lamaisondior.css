@@ -1,0 +1,72 @@
+/*
+
+the-crafts.html
+
+*/
+.top-fix{
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: auto;
+}
+.header-area{
+    background: #fff ;
+}
+section.video-banner {
+    margin-top: 195px;
+}
+.video-desc-style {
+    background: #000;
+    text-align: center;
+    padding: 140px 40px;
+}
+.video-desc{
+	color: #fff ;
+}
+.video-desc p{
+	margin: 0 ;
+}
+hr.small {
+    width: 30px;
+    margin: 26px auto 26px auto;
+}
+.video-desc h1 {
+    font-size: 29px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.video-desc p {
+    font-size: 13px;
+    line-height: 17px;
+}
+.video-area #my-video{
+	width: 100%;
+	height : 398px;
+}
+#my-video .vjs-big-play-button {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+}
+.show-crafts{}
+.show-crafts a{
+    color: #000 ;
+    text-transform: uppercase;
+    display: block;
+}
+.show-crafts h3{
+    margin: 10px 0 5px 0;
+    font-size: 13px;
+}
+.crafts{
+	margin-bottom: 20px;
+}
