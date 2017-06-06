@@ -38,6 +38,7 @@
 			}
 		}]
 	});
+
     // FINE SOFT DRESSMAKING
     $(".prototype-carosel").slick({
         // normal options...
@@ -73,6 +74,29 @@
           },
        type: 'iframe' // this overrides default type
     });
+
+
+
+
+
+    // Example with single object
+    $('#video-popup2').magnificPopup({
+        items: {
+            src: 'video/2.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+
+
+    $('#video-popup3').magnificPopup({
+        items: {
+            src: 'video/3.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+
 
 
 

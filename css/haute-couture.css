@@ -155,3 +155,8 @@
 .bg-parallax.bg-parallax-3{
     background-image: url(../img/haute-couture/para_sep3.jpg);
 }
+.other-image{
+    float: right;
+    text-align: right;
+    margin-top: 50px;
+}
