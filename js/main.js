@@ -38,6 +38,29 @@
 			}
 		}]
 	});
+    //     $(".prototype-carosel").slick({
+    //     // normal options...
+    //     infinite: false,
+    //     autoplay:true ,
+    //     arrows: false,
+    //     // the magic
+
+    //     responsive: [{
+    //         breakpoint: 1024,
+    //         settings: {
+    //             slidesToShow: 1,
+    //             infinite: true
+    //         }
+    //     }, {
+    //         breakpoint: 600,
+    //         settings: {
+
+    //             slidesToShow: 1,
+
+    //             dots: true
+    //         }
+    //     }]
+    // });
 
 
     // Banner Scroll button
