@@ -150,5 +150,8 @@
     padding-bottom: 20px;
 }
 .bg-parallax.bg-parallax-2{
-        background-image: url(../img/haute-couture/para_sep2.jpg);
+    background-image: url(../img/haute-couture/para_sep2.jpg);
+}
+.bg-parallax.bg-parallax-3{
+    background-image: url(../img/haute-couture/para_sep3.jpg);
 }
