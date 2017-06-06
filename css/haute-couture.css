@@ -1,9 +1,11 @@
 .hautecouture-section{
 	background-image: url("../img/haute-couture/header_fixed.jpg");
+    margin-bottom: 80px;
 }
 .banner-content {
     text-align: center;
     padding: 130px 0;
+    position: relative;
 }
 .banner-content h1 {
     font-size: 102px;
@@ -16,4 +18,73 @@
     padding: 0 215px;
     text-align: justify;
     line-height: 22px;
+}
+.trangle-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 82px;
+    height: 40px;
+    z-index: 1;
+    font-size: 22px;
+    padding-top: 20px;
+    text-align: center;
+}
+.trangle-icon:after {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 40px 40px 41px;
+    border-color: transparent transparent #ffffff transparent;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 29px;
+    z-index: -1;
+}
+.heading{
+    text-align: center;
+}
+.heading h2{
+    display: block;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.heading h3{
+    color: #444444;
+    font-size: 25px;
+}
+
+.dress-details {
+    padding: 42px 0 108px 0;
+    display: inline-block;
+/*    margin-left: -15px;
+    margin-right: -15px;*/
+}
+.dress-content{position: relative;}
+.dress-content p{
+    border-top: #e5e5e5 1px solid;
+    padding-top: 20px;
+}
+.image-content {
+    position: absolute;
+    top: 110%;
+    left: 0;
+}
+.image-content img{}
+.bg-parallax{
+    background-image: url(../img/haute-couture/para_sep1.jpg);
+    height: 500px;
+    position: relative;
+}
+.single{}
+.single #my-video{
+    width: 100%;
+    height: auto;
 }
