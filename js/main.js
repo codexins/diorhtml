@@ -38,6 +38,7 @@
 			}
 		}]
 	});
+<<<<<<< HEAD
     
     // fragnance slider / slick carousel js code
     $('.fragnance-slider-content').slick({
@@ -77,6 +78,72 @@
     //         }
     //     }]
     // });
+=======
+
+    // FINE SOFT DRESSMAKING
+    $(".prototype-carosel").slick({
+        // normal options...
+        infinite: false,
+        autoplay:true ,
+        arrows: false,
+        // infinite:true,
+        // the magic
+
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                infinite: true
+            }
+        }, {
+            breakpoint: 600,
+            settings: {
+
+                slidesToShow: 1,
+
+                dots: true
+            }
+        }]
+    });
+
+
+
+    // Example with single object
+    $('#video-popup').magnificPopup({
+        items: {
+            src: 'video/craft-video.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+
+
+
+
+    // Example with single object
+    $('#video-popup2').magnificPopup({
+        items: {
+            src: 'video/2.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+
+
+    $('#video-popup3').magnificPopup({
+        items: {
+            src: 'video/3.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+
+
+
+
+
+
+>>>>>>> f4a88ce37c0ca4764f10688a73de772744cb4f39
 
 
     // Banner Scroll button
