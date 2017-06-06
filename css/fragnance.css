@@ -1,4 +1,4 @@
-
+/*fragnance section one css area start*/
 .fragnance-section-one {
 	margin-bottom: 40px;
 }
@@ -45,3 +45,75 @@
 	width: 100%;
 	height: 485px !important;
 }
+/*fragnance section one css area end */
+
+/*fragnance section two css area start */
+
+.fragnance-section-two {}
+.fragnance-section-two .cx-fashion {
+    margin-bottom: 0;
+}
+/*fragnance section two css area end */
+
+/*fragnance section three css area start */
+.fragnance-section-three {
+    margin-top: 60px;
+}
+.fragnance-slider-container {
+    display: block;
+    padding: 40px 0 60px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    overflow: hidden;
+}
+.fragnance-slider-title {}
+.fragnance-slider-title h3 {
+    margin: 0 auto 30px 25px;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.fragnance-slider-content {}
+.fragnance-slider-image {}
+.fragnance-slider-image figure {
+    margin: 0 20px;
+}
+.fragnance-slider-image figure a {}
+.fragnance-slider-image figure a img {}
+.fragnance-slider-image figure a figcaption {
+    padding: 20px 0 0;
+    text-transform: uppercase;
+    font-size: 0;
+    color: #fff;
+    text-align: left;
+}
+.fragnance-slider-image figure a figcaption h5 {}
+.fragnance-slider-image figure a figcaption h4 {}
+
+.slider-nav-left {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    cursor: pointer;
+}
+.slider-nav-right {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    cursor: pointer;
+}
+
+/*fragnance section three css area start */
