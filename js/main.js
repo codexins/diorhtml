@@ -38,29 +38,46 @@
 			}
 		}]
 	});
-    //     $(".prototype-carosel").slick({
-    //     // normal options...
-    //     infinite: false,
-    //     autoplay:true ,
-    //     arrows: false,
-    //     // the magic
+    // FINE SOFT DRESSMAKING
+    $(".prototype-carosel").slick({
+        // normal options...
+        infinite: false,
+        autoplay:true ,
+        arrows: false,
+        // infinite:true,
+        // the magic
 
-    //     responsive: [{
-    //         breakpoint: 1024,
-    //         settings: {
-    //             slidesToShow: 1,
-    //             infinite: true
-    //         }
-    //     }, {
-    //         breakpoint: 600,
-    //         settings: {
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                infinite: true
+            }
+        }, {
+            breakpoint: 600,
+            settings: {
 
-    //             slidesToShow: 1,
+                slidesToShow: 1,
 
-    //             dots: true
-    //         }
-    //     }]
-    // });
+                dots: true
+            }
+        }]
+    });
+
+
+
+    // Example with single object
+    $('#video-popup').magnificPopup({
+        items: {
+            src: 'video/craft-video.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+
+
+
+
 
 
     // Banner Scroll button
