@@ -131,6 +131,60 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
     text-transform: uppercase;
     font-size: 0;
 }
+.push-legend .push-text {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.push-legend .push-text h4 {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+    margin-bottom: 5px;
+
+}
+.push-legend .push-text p  {
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.push-text span {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+}
+.push-text .separator {
+    margin: 0 5px;
+}
+
+.push-button {
+    width: 40%;
+    position: relative;
+    text-align: right;
+    display: inline-block;
+    vertical-align: top;
+}
+.push-button .button-dark {
+    text-decoration: none;
+    border: 1px solid #000;
+    color: white;
+    background-color: black;
+    padding: 8px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 14px;
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
 .cx-fashion .sidebar-title {
     margin: 5px 0 0;
     font-size: 18px;

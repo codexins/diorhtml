@@ -1,0 +1,47 @@
+
+.fragnance-section-one {
+	margin-bottom: 40px;
+}
+.fragnance-four-eight-content {}
+.fragnance-four-eight-content .fragnance-four-eight-left {
+	width: 100%;
+	height: 485px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #f6f6f6;
+}
+.fragnance-four-eight-content .fragnance-four-eight-left h2 {
+	display: block;
+    position: absolute;    
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.fragnance-four-eight-content .fragnance-four-eight-left a {
+	position: absolute;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+.fragnance-four-eight-content .fragnance-four-eight-left a h3 {
+	margin: 0 0 20px;
+    font-size: 14px;
+}
+.fragnance-four-eight-content .fragnance-four-eight-left a img {
+	max-width: 50%;
+    height: auto;
+}
+
+.fragnance-four-eight-right {}
+.fragnance-four-eight-right .video-area .fragnance-video {
+	width: 100%;
+	height: 485px !important;
+}
