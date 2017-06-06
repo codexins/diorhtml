@@ -1,3 +1,19 @@
 .hautecouture-section{
-	background-image: url("../img/header_fixed/header_fixed.jpg");
+	background-image: url("../img/haute-couture/header_fixed.jpg");
+}
+.banner-content {
+    text-align: center;
+    padding: 130px 0;
+}
+.banner-content h1 {
+    font-size: 102px;
+    font-weight: normal;
+    text-transform: none;
+    color: #181818;
+    padding: 16px 0 45px 0;
+}
+.banner-content p {
+    padding: 0 215px;
+    text-align: justify;
+    line-height: 22px;
 }
