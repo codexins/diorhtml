@@ -38,6 +38,22 @@
 			}
 		}]
 	});
+    
+    // fragnance slider / slick carousel js code
+    $('.fragnance-slider-content').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        draggable: false,
+
+        centerPadding: '50px',
+        appendArrows: $(".fragnance-slider-content"),
+        prevArrow: '<div class="slider-nav-left"></div>',
+        nextArrow: '<div class="slider-nav-right"></div>',
+    });
+
     //     $(".prototype-carosel").slick({
     //     // normal options...
     //     infinite: false,

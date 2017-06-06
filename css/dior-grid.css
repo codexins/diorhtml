@@ -11,6 +11,7 @@ section{
 .adjust-padding {
 	padding-left: 0 !important;
 	padding-right: 0 !important;
+	position: relative;
 }
 .mrg-lr{
 	padding-left: 22px;
