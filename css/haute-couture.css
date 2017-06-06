@@ -148,6 +148,7 @@
 .prototype-content p {
     border-bottom: #e5e5e5 1px solid;
     padding-bottom: 20px;
+        text-align: right;
 }
 .bg-parallax.bg-parallax-2{
     background-image: url(../img/haute-couture/para_sep2.jpg);
@@ -155,8 +156,74 @@
 .bg-parallax.bg-parallax-3{
     background-image: url(../img/haute-couture/para_sep3.jpg);
 }
+.bg-parallax.bg-parallax-4{
+    background-image: url(../img/haute-couture/para_sep4.jpg);   
+}
 .other-image{
     float: right;
     text-align: right;
     margin-top: 50px;
+}
+.final-assembly{}
+.final-assembly .dress-content {}
+.final-assembly .dress-content p{
+    text-align: right;
+    margin-bottom: 50px;
+}
+.other-image2{
+    margin-top: 50px;
+}
+section.find-more {
+    background: #efefef;
+    padding-top:  80px;
+    padding-bottom: 108px;
+}   
+
+.find-more .heading{
+    padding-bottom:  42px ;
+}
+.more-option{}
+.more-option a{
+    display: block;
+    position: relative;
+}
+.more-option a:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000 ;
+}
+.more-option a p {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    z-index: 1;
+    font-size: 25px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    height: 45px;
+}
+.more-option a:after,.more-option a p {
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.8s;
+}
+.more-option:hover a:after{
+    opacity: 0.5;
+    visibility: visible;
+}
+.more-option:hover a p{
+    opacity: 1;
+    visibility: visible;
+}
+.left-align p{
+    text-align: left;
 }
