@@ -135,6 +135,20 @@
        type: 'iframe' // this overrides default type
     });
 
+    $('#makeup-row-two').magnificPopup({
+        items: {
+            src: 'video/makeup-row2.mp4',
+        },
+    type: 'iframe' // this overrides default type
+    });
+
+    $('#makeup-row-three-five').magnificPopup({
+        items: {
+            src: 'video/makeup-row3-5.mp4',
+        },
+    type: 'iframe' // this overrides default type
+    });
+
 
 
 
