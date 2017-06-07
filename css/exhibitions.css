@@ -40,10 +40,14 @@
     transition: all 0.5s;
     border-radius: 50%;
 }
-.sticky-nav a:hover i, sticky-nav-i { 
+.sticky-nav a:hover i, 
+.sticky-nav-i {
     background-color: #fff;
     width: 13px;
     height: 13px;
+}
+.special {
+    background-color: red;
 }
 .sticky-nav-sub {
     position: fixed;

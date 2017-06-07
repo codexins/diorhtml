@@ -1,3 +1,7 @@
+.box-border {
+    display: block;
+    border: 1px solid #e0e0e0;
+}
 /*fragnance section one css area start*/
 .fragnance-section-one {
 	margin-bottom: 40px;
@@ -52,6 +56,27 @@
 .fragnance-section-two {}
 .fragnance-section-two .cx-fashion {
     margin-bottom: 0;
+}
+
+.play-icon-container {
+    display: block;
+    position: relative;
+}
+.play-icon {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 50%;
+}
+.play-icon i {
+    font-size: 45px;
+    line-height: 70px;
+    margin-left: 10px;
 }
 /*fragnance section two css area end */
 
@@ -116,4 +141,58 @@
     cursor: pointer;
 }
 
-/*fragnance section three css area start */
+/*fragnance section three css area end */
+
+/*fragnance section four css area start */
+.fragnance-section-four {
+    padding-top: 40px;
+    background-color: #f6f6f6;
+}
+
+/*fragnance section four css area end */
+
+/*fragnance section five css area start */
+.fragnance-section-five {
+    padding-top: 40px;
+    background-color: #f6f6f6;
+}
+.fragnance-section-content .cx-fashion {
+    margin-bottom: 0;
+}
+.push-discover {
+    position: relative;
+}
+.fragnance-image-text {}
+.fragnance-image-text {}
+.fragnance-image-text figcaption {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    text-align: right;
+    color: #fff;
+}
+.fragnance-image-text .push-discover h4 {
+    margin: 0 0 25px;
+    font-size: 32px;
+}
+.fragnance-image-text .push-discover p {
+    margin: 0 0 25px;
+    font-size: 13px;
+    line-height: 18px;
+}
+.fragnance-image-text .push-discover p a {
+    margin: 0 0 25px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    text-decoration: underline;
+}
+/*fragnance section five css area end */
+
+/*fragnance section six css area start */
+.fragnance-section-six {
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 40px;
+    background-color: #f6f6f6;
+}

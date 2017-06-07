@@ -114,6 +114,27 @@
        type: 'iframe' // this overrides default type
     });
 
+    $('#fragnance-row-two').magnificPopup({
+        items: {
+            src: 'video/fragnance-row2-video2.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+    $('#fragnance-row-three-one').magnificPopup({
+        items: {
+            src: 'video/fragnance-row3-video1.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+    $('#fragnance-row-three-two').magnificPopup({
+        items: {
+            src: 'video/fragnance-row3-video2.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
 
 
 
@@ -146,53 +167,53 @@
 
     // Banner Scroll button
     $(".scroll-button").click(function() {
-    	$('html,body').animate({
-    		scrollTop: $(".ongoing").offset().top},
-    		'slow');
+        $('html,body').animate({
+            scrollTop: $(".ongoing").offset().top},
+            'slow');
     });
     
     // sticky nav scroll
 
     $( ".sticky-nav-home" ).hover(
-    	function() {
-    		$(".sticky-nav-home .fa").addClass( "sticky-nav-i" );
-    	}, function() {
-    		$(".sticky-nav-home .fa").removeClass( "sticky-nav-i" );
-    	}
+        function() {
+            $(".sticky-nav-home .fa").addClass( "sticky-nav-i" );
+        }, function() {
+            $(".sticky-nav-home .fa").removeClass( "sticky-nav-i" );
+        }
     );
     $( ".sticky-nav-ongoing" ).hover(
-    	function() {
-    		$(".sticky-nav-ongoing .fa").addClass( "sticky-nav-i" );
-    	}, function() {
-    		$(".sticky-nav-ongoing .fa").removeClass( "sticky-nav-i" );
-    	}
+        function() {
+            $(".sticky-nav-ongoing .fa").addClass( "sticky-nav-i" );
+        }, function() {
+            $(".sticky-nav-ongoing .fa").removeClass( "sticky-nav-i" );
+        }
     );
     $( ".sticky-nav-archive" ).hover(
-    	function() {
-    		$(".sticky-nav-archive .fa").addClass( "sticky-nav-i" );
-    	}, function() {
-    		$(".sticky-nav-archive .fa").removeClass( "sticky-nav-i" );
-    	}
+        function() {
+            $(".sticky-nav-archive .fa").addClass( "sticky-nav-i" );
+        }, function() {
+            $(".sticky-nav-archive .fa").removeClass( "sticky-nav-i" );
+        }
     );
 
     $(".sticky-nav-home").click(function(e) {
-    	e.preventDefault();
-    	$('html,body').animate({
-    		scrollTop: $(".header-top").offset().top},
-    		'slow');
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(".header-top").offset().top},
+            'slow');
 
     });
     $(".sticky-nav-ongoing").click(function(e) {
-    	e.preventDefault();
-    	$('html,body').animate({
-    		scrollTop: $(".ongoing").offset().top},
-    		'slow');
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(".ongoing").offset().top},
+            'slow');
     });
     $(".sticky-nav-archive").click(function(e) {
-    	e.preventDefault();
-    	$('html,body').animate({
-    		scrollTop: $(".archive").offset().top},
-    		'slow');
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(".archive").offset().top},
+            'slow');
     });
 
 
