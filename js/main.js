@@ -84,6 +84,48 @@
        type: 'iframe' // this overrides default type
     });
 
+<<<<<<< HEAD
+=======
+    $('#fragnance-row-two').magnificPopup({
+        items: {
+            src: 'video/fragnance-row2-video2.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+    $('#fragnance-row-three-one').magnificPopup({
+        items: {
+            src: 'video/fragnance-row3-video1.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+    $('#fragnance-row-three-two').magnificPopup({
+        items: {
+            src: 'video/fragnance-row3-video2.mp4',
+          },
+       type: 'iframe' // this overrides default type
+    });
+
+    $('#makeup-row-two').magnificPopup({
+        items: {
+            src: 'video/makeup-row2.mp4',
+        },
+    type: 'iframe' // this overrides default type
+    });
+
+    $('#makeup-row-three-five').magnificPopup({
+        items: {
+            src: 'video/makeup-row3-5.mp4',
+        },
+    type: 'iframe' // this overrides default type
+    });
+
+
+
+
+
+>>>>>>> 10e4476406440017cdccdd1ad44d11925eb2007e
     // Example with single object
     $('#video-popup2').magnificPopup({
         items: {
@@ -102,14 +144,15 @@
 
     // Banner Scroll button
     $(".scroll-button").click(function() {
-    	$('html,body').animate({
-    		scrollTop: $(".ongoing").offset().top},
-    		'slow');
+        $('html,body').animate({
+            scrollTop: $(".ongoing").offset().top},
+            'slow');
     });
     
     // sticky nav scroll
 
     $( ".sticky-nav-home" ).hover(
+<<<<<<< HEAD
     	function() {
     		$("a.sticky-nav-home i.fa").addClass( "sticky-nav-i" );
     	}, function() {
@@ -129,26 +172,47 @@
     	}, function() {
     		$("a.sticky-nav-archive i.fa").removeClass( "sticky-nav-i" );
     	}
+=======
+        function() {
+            $(".sticky-nav-home .fa").addClass( "sticky-nav-i" );
+        }, function() {
+            $(".sticky-nav-home .fa").removeClass( "sticky-nav-i" );
+        }
+    );
+    $( ".sticky-nav-ongoing" ).hover(
+        function() {
+            $(".sticky-nav-ongoing .fa").addClass( "sticky-nav-i" );
+        }, function() {
+            $(".sticky-nav-ongoing .fa").removeClass( "sticky-nav-i" );
+        }
+    );
+    $( ".sticky-nav-archive" ).hover(
+        function() {
+            $(".sticky-nav-archive .fa").addClass( "sticky-nav-i" );
+        }, function() {
+            $(".sticky-nav-archive .fa").removeClass( "sticky-nav-i" );
+        }
+>>>>>>> 10e4476406440017cdccdd1ad44d11925eb2007e
     );
 
     $(".sticky-nav-home").click(function(e) {
-    	e.preventDefault();
-    	$('html,body').animate({
-    		scrollTop: $(".header-top").offset().top},
-    		'slow');
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(".header-top").offset().top},
+            'slow');
 
     });
     $(".sticky-nav-ongoing").click(function(e) {
-    	e.preventDefault();
-    	$('html,body').animate({
-    		scrollTop: $(".ongoing").offset().top},
-    		'slow');
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(".ongoing").offset().top},
+            'slow');
     });
     $(".sticky-nav-archive").click(function(e) {
-    	e.preventDefault();
-    	$('html,body').animate({
-    		scrollTop: $(".archive").offset().top},
-    		'slow');
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(".archive").offset().top},
+            'slow');
     });
     // sticky nav scroll for haute-couture.html
 
