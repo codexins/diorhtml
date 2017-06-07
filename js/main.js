@@ -84,8 +84,7 @@
        type: 'iframe' // this overrides default type
     });
 
-<<<<<<< HEAD
-=======
+
     $('#fragnance-row-two').magnificPopup({
         items: {
             src: 'video/fragnance-row2-video2.mp4',
@@ -122,10 +121,6 @@
     });
 
 
-
-
-
->>>>>>> 10e4476406440017cdccdd1ad44d11925eb2007e
     // Example with single object
     $('#video-popup2').magnificPopup({
         items: {
@@ -152,7 +147,6 @@
     // sticky nav scroll
 
     $( ".sticky-nav-home" ).hover(
-<<<<<<< HEAD
     	function() {
     		$("a.sticky-nav-home i.fa").addClass( "sticky-nav-i" );
     	}, function() {
@@ -172,7 +166,7 @@
     	}, function() {
     		$("a.sticky-nav-archive i.fa").removeClass( "sticky-nav-i" );
     	}
-=======
+
         function() {
             $(".sticky-nav-home .fa").addClass( "sticky-nav-i" );
         }, function() {
@@ -192,7 +186,7 @@
         }, function() {
             $(".sticky-nav-archive .fa").removeClass( "sticky-nav-i" );
         }
->>>>>>> 10e4476406440017cdccdd1ad44d11925eb2007e
+
     );
 
     $(".sticky-nav-home").click(function(e) {
