@@ -38,7 +38,6 @@
 			}
 		}]
 	});
-<<<<<<< HEAD
     
     // fragnance slider / slick carousel js code
     $('.fragnance-slider-content').slick({
@@ -78,7 +77,6 @@
     //         }
     //     }]
     // });
-=======
 
     // FINE SOFT DRESSMAKING
     $(".prototype-carosel").slick({
@@ -143,7 +141,7 @@
 
 
 
->>>>>>> f4a88ce37c0ca4764f10688a73de772744cb4f39
+
 
 
     // Banner Scroll button
