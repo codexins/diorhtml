@@ -74,7 +74,7 @@
     margin-left: -960px;
 }*/
 
-.expertise-section-one-cover .section-title {
+.cover-title .section-title {
     position: absolute;
     bottom: -100px;
     left: 50%;
@@ -100,4 +100,204 @@
     position: relative;
     background: url(../img/expertise-soin/expertise-soin-row2-bg.jpg) center center/cover no-repeat #ccc;
 }
+
+.expertise-section-two-left {
+
+}
+.expertise-section-two-left img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.expertise-section-two-right img {
+    
+    margin-bottom: 30px;
+}
+
+.expertise-section-two-text {
+    padding-top: 210px;
+    color: #999999;
+}
+.expertise-section-two-text .quote {
+    font-size: 20px;
+    font-style: italic;
+    font-family: "Times New Roman", Georgia, Serif;
+    padding-right: 12px;
+}
+.expertise-section-two-text .quote-source {}
+.expertise-section-two-text .paragraph {
+    padding-top: 25px;
+}
+
+.expertise-soin-more {
+    text-align: center;
+    position: relative;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+.expertise-soin-more:before {
+    content: "";
+    position: absolute;
+    width: 33%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+    border: 0;
+}
+.expertise-soin-more:after {
+    content: "";
+    position: absolute;
+    width: 33%;
+    height: 1px;
+    top: 50%;
+    right: 0;
+    background-color: rgba(0, 0, 0, .4);
+    border: 0;
+}
+.expertise-soin-more a {
+    display: inline-block;
+    position: relative;
+}
+.expertise-soin-more a img {
+    display: block;
+    position: relative;
+}
+.expertise-soin-more a p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    font-family: HelveticaNeue-CondensedBold, Helvetica;
+    font-size: 18px;
+    line-height: 46px;
+    color: #fff;
+    font-weight: 600;
+}
 /*expertis section two css area end */
+
+/*expertis section three css area start */
+.expertise-section-three-cover {
+    position: relative;
+    height: 400px;
+    z-index: 1;
+    background: url(../img/expertise-soin/expertise-soin-row3-top.jpg) center center/cover no-repeat #ccc;
+    color: #fff;
+}
+.expertise-section-three-container {
+    position: relative;
+    background: url(../img/expertise-soin/expertise-soin-row3-bg.jpg) center center/cover no-repeat #ccc;
+    padding-top: 120px;
+}
+.ex-color {
+    color: #999;
+    font-size: 14px;
+    line-height: 22px;
+    padding-bottom: 25px;
+}
+.expertise-soin-more-two {
+    text-align: center;
+    position: relative;
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+.expertise-soin-more-two:before {
+    content: "";
+    position: absolute;
+    width: 33%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    background-color: rgba(255, 255, 255, .4);
+    border: 0;
+}
+.expertise-soin-more-two:after {
+    content: "";
+    position: absolute;
+    width: 33%;
+    height: 1px;
+    top: 50%;
+    right: 0;
+    background-color: rgba(255, 255, 255, .4);
+    border: 0;
+}
+.expertise-soin-more-two a {
+    display: inline-block;
+    position: relative;
+}
+.expertise-soin-more-two a img {
+    display: block;
+    position: relative;
+}
+.expertise-soin-more-two a p {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    font-family: HelveticaNeue-CondensedBold, Helvetica;
+    font-size: 18px;
+    line-height: 46px;
+    color: #252527;
+    font-weight: 600;
+}
+/*expertis section three css area end */
+
+/*expertis section four css area start */
+.expertise-section-two-container {
+    position: relative;
+    background: url(../img/expertise-soin/expertise-soin-row4-bg.jpg) center center/cover no-repeat #ccc;
+    padding-top: 120px;
+}
+.expertise-section-four-cover {
+    position: relative;
+    height: 400px;
+    z-index: 1;
+    background: url(../img/expertise-soin/expertise-soin-row4-top.jpg) center center/cover no-repeat #ccc;
+}
+.expertise-section-four-text {
+    color: #999999;
+    padding-top: 58px
+}
+.expertise-section-four-text .paragraph {
+    padding-top: 25px;
+}
+.pad-20 {
+    padding-top: 20px;
+}
+.expertise-section-four-left {
+    text-align: right;
+}
+.expertise-section-four-left img {
+    
+    margin-bottom: 30px;
+}
+/*expertis section four css area end */
+/*expertis social section four css area start */
+.expertise-soin-social {
+    padding: 15px 0 10px 20px;
+    text-align: center;
+}
+.expertise-soin-social p {
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.expertise-soin-social a {
+    display: inline-block;
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    height: 16px;
+    line-height: 16px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.expertise-soin-social a i {
+    font-size: 22px;
+}
+/*expertis social section four css area end */
