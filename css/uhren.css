@@ -1,0 +1,22 @@
+/* uhren section two css area start */
+.uhren-section-two {}
+.uhren-section-two-container {}
+.uhren-sec-two-left {}
+.uhren-sec-two figure {}
+.uhren-sec-two figure a {}
+.uhren-sec-two figure a img {}
+.uhren-sec-two figure figcaption {
+	padding-top: 25px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.uhren-sec-two figure figcaption h5 {}
+.uhren-sec-two figure figcaption h4 {}
+/* uhren section two css area end */
+
+/* uhren section three css area start */
+.uhren-section-three {
+	background: url(../img/expertise-soin/expertise-soin-row1.jpg) center center/cover no-repeat #ccc;
+}
+/* uhren section three css area end */
