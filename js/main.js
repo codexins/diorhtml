@@ -166,7 +166,7 @@
     	}, function() {
     		$("a.sticky-nav-archive i.fa").removeClass( "sticky-nav-i" );
     	}
-<<<<<<< HEAD
+
     );
     
 
@@ -192,9 +192,7 @@
     // sticky nav scroll for haute-couture.html
 
     $( ".sticky-introduction" ).hover(
-=======
 
->>>>>>> fce12b8115be4bf67b78a6e5c5d3ee81a9cc10a2
         function() {
             $("a.sticky-introduction i.fa").addClass( "sticky-nav-i" );
         }, function() {
@@ -292,8 +290,7 @@
             'slow');
 
     });
-<<<<<<< HEAD
-=======
+
     // sticky nav scroll for haute-couture.html
 
     $( ".sticky-introduction" ).hover(
@@ -393,7 +390,8 @@
             'slow');
 
     });
->>>>>>> fce12b8115be4bf67b78a6e5c5d3ee81a9cc10a2
+
+
     $(".sticky-conclusion").click(function(e) {
         e.preventDefault();
         $('html,body').animate({
@@ -401,14 +399,6 @@
             'slow');
 
     });
-
-
-
-
-
-
-
-
 
 
 })(jQuery);
