@@ -6,6 +6,55 @@
 
 
 
+       
+
+    $("#plus-icon").click(function(e) {
+            e.preventDefault();
+            $(".do-hide").removeClass( "show" );
+            $(".do-hide").addClass( "hide" );
+
+            $(".shown").removeClass( "hide" );
+            $(".shown").addClass( "show" );
+
+     });
+     $(".closs").click(function(e) {
+            e.preventDefault();
+
+            $(".do-hide").removeClass( "hide" );
+            $(".do-hide").addClass( "show" );
+            
+            $(".shown").removeClass( "show" );
+            $(".shown").addClass( "hide" );
+     });
+
+      $(".closs2").click(function(e) {
+            e.preventDefault();
+
+            $(".append_video").removeClass( "show" );
+            $(".append_video").addClass( "hide" );
+     });
+
+
+    $( ".open_video" ).click(function(e) {
+        e.preventDefault();
+        var htmlString = $( ".append" ).html();
+        $( '.append_video' ).html( htmlString );
+    });
+
+
+    $(".open_video").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".append_video").offset().top},
+            'slow');
+    });
+
+
+
+
+
+
+
+
 	$(".slick-slider").slick({
 		// normal options...
 		infinite: false,
@@ -166,27 +215,6 @@
     	}, function() {
     		$("a.sticky-nav-archive i.fa").removeClass( "sticky-nav-i" );
     	}
-
-        function() {
-            $(".sticky-nav-home .fa").addClass( "sticky-nav-i" );
-        }, function() {
-            $(".sticky-nav-home .fa").removeClass( "sticky-nav-i" );
-        }
-    );
-    $( ".sticky-nav-ongoing" ).hover(
-        function() {
-            $(".sticky-nav-ongoing .fa").addClass( "sticky-nav-i" );
-        }, function() {
-            $(".sticky-nav-ongoing .fa").removeClass( "sticky-nav-i" );
-        }
-    );
-    $( ".sticky-nav-archive" ).hover(
-        function() {
-            $(".sticky-nav-archive .fa").addClass( "sticky-nav-i" );
-        }, function() {
-            $(".sticky-nav-archive .fa").removeClass( "sticky-nav-i" );
-        }
-
     );
 
     $(".sticky-nav-home").click(function(e) {
