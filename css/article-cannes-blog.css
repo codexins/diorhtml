@@ -1,0 +1,150 @@
+
+.blog-left {
+    width: 120px;
+    float: left;
+}
+.single-blog {
+    overflow: hidden;
+}
+.blog-left{}
+.date{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 11px;
+    line-height: 30px;
+}
+.category {
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+}
+.date > span{
+	display: block;
+	font-size: 50px;
+}
+.blog-right {}
+.details{
+	text-align: center;
+}
+.article-title.desktop {
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    line-height: 40px;
+    font-size: 36px;
+    color: #000;
+}
+.article-title.desktop em{
+	font-family: Arial;
+}
+.blog-right {}
+.blog-right p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.blog-repeat {
+    position: relative;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 72px;
+}
+.blog-area article + article {
+    border-top: 1px solid #e5e5e5;
+}
+.blog-video{}
+.blog-video #my-video {
+    width: 100%;
+    height: 468px;
+
+}
+.blog-image{
+	position: relative;
+}
+.social-bar {
+    width: 300px;
+    float: right;
+    height: 50px;
+    background: rgba(0,0,0,0.9);
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    opacity: 0;
+}
+.blog-image:hover .social-bar{
+	opacity: 1;
+}
+.social-bar ul{
+	float: right;
+
+}
+.social-bar ul li{
+	display: inline-block;
+}
+.social-bar ul li + li{
+	border-left: 1px solid #292929;
+}
+.social-bar ul li a{
+    color: #fff;
+    font-size: 25px;
+    padding: 0 20px;
+    display: block;
+    line-height: 50px;
+}
+.gallery-img{
+/*	width: 25%;
+	float: left;*/
+	position: relative;
+}
+.social-gallery{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.9);
+	opacity: 0;
+	visibility: hidden;
+}
+.social-gallery ul{
+    width: 70%;
+    vertical-align: middle;
+    bottom: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 142px;
+    margin: auto;
+    left: 0;
+}
+.social-gallery ul li{
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+.social-gallery ul li:nth-child(odd) {
+
+}
+.social-gallery ul li:nth-child(even) {
+    border-left: 1px solid #292929;
+}
+.social-gallery ul li a{
+	color: #fff;
+    font-size: 20px;
+    padding: 0 20px;
+    display: block;
+    line-height: 50px;
+}
+.gallery-img:hover .social-gallery{
+	opacity: 1;
+	visibility: visible;
+}
+.bortder-top{
+	border-top:1px solid #292929;
+}
+.gallery-all{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}

@@ -1,0 +1,45 @@
+/*sennheiser section one css area start*/
+.sennheiser-section-one-image {
+	background: url(../img/sennheiser/sennheiser-row1.jpg) center right/cover no-repeat #ccc;
+}
+
+.sennheisere-section-one-text {
+	padding-top: 37px;
+	margin-left: 20px;
+}
+.sennheisere-section-one-text h1 {
+    margin: 60px 0 35px -110px;
+    text-transform: uppercase;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000;
+    text-align: justify;
+}
+.sennheisere-section-one-text p {
+	margin: 0 0 35px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    letter-spacing: 0.5px;
+}
+.sennheisere-section-one-text ul {}
+.sennheisere-section-one-text ul li {
+	margin: 0 0 13px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.sennheisere-section-one-text ul li a {
+	color: #9a9a9a;
+}
+.sennheisere-section-one-text ul li a.active-list {
+	color: #000;
+}
+.sennheisere-section-one-text ul li a i {
+	margin: 0 10px 2px 0;
+}
+/*sennheiser section one css area end*/
+
+/*sennheiser section two css area start*/
+.sennheiser-section-three-image {}
+.sennheiser-section-three-image img {}
+/*sennheiser section two css area end*/

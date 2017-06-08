@@ -1,0 +1,45 @@
+/*expertis section one css area start */
+.expertise-section-one {}
+.expertise-section-one-content {}
+
+.column-left-align {
+    margin-left: -22px;
+}
+
+.expertise-section-one-image {
+	background: url(../img/expertise-soin/expertise-soin-row1.jpg) center center/cover no-repeat #ccc;
+}
+.expertise-section-one-text {
+	padding-top: 37px;
+	margin-left: 20px;
+}
+.expertise-section-one-text h1 {
+	margin: 0px 0 35px -110px;
+    text-transform: uppercase;
+    font-size: 72px;
+    line-height: 70px;
+    color: #000;
+}
+.expertise-section-one-text p {
+	margin: 0 0 35px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000;
+    letter-spacing: 0.5px;
+}
+.expertise-section-one-text ul {}
+.expertise-section-one-text ul li {
+	margin: 0 0 13px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.expertise-section-one-text ul li a {
+	color: #9a9a9a;
+}
+.expertise-section-one-text ul li a.active-list {
+	color: #000;
+}
+.expertise-section-one-text ul li a i {
+	margin: 0 10px 2px 0;
+}
+/*expertis section one css area end */
