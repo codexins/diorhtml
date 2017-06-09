@@ -1,9 +1,9 @@
 
 header,footer{}
-section{
+/*section{
 	margin-left: 22px;
 	margin-right: 22px;
-}
+}*/
 .adjust-margin {
  	margin-left: inherit;
  	margin-right: inherit;

@@ -93,9 +93,8 @@
     line-height: 50px;
 }
 .gallery-img{
-/*	width: 25%;
-	float: left;*/
 	position: relative;
+    margin-bottom: 30px;
 }
 .social-gallery{
 	position: absolute;
@@ -147,4 +146,13 @@
 	width: 80%;
 	margin: 0 auto;
 	overflow: hidden;
+}
+.marn-top-30{
+    margin-top: 30;
+}
+.social-gallery ul li:last-child {
+    float: inherit;
+}
+.video-dsc{
+    padding-top: 80px;
 }

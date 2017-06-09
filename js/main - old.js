@@ -30,38 +30,26 @@
 
     $( ".open_video" ).click(function(e) {
         e.preventDefault();
-       
-        if (!$(this).hasClass('disabled')) {
-
-            var htmlString = $( ".append" ).html();
-            $(this).parents( ".one_row" ).append( htmlString );
-
-            // $('.open_video').click(function(){return false;});
-            $('.open_video').addClass("disabled");
-
-            $('html,body').animate({
-                scrollTop: $(".append_video").offset().top},
-                'slow');
-        
-        }
-        // else{
-        // $(".closs2").click(function(e) click korate hbe 
-        // }
-
+        var htmlString = $( ".append" ).html();
+        $( '.append_video' ).html( htmlString );
+        $(".append_video").removeClass( "hide" );
+        $(".append_video").addClass( "show" );
         close_append();
     });
 
 
-    // $(".open_video").click(function() {
-        
-    // });
+    $(".open_video").click(function() {
+        $('html,body').animate({
+            scrollTop: $(".append_video").offset().top},
+            'slow');
+    });
 
     function close_append(){
         $(".closs2").click(function(e) {
             e.preventDefault();
-            $(this).parents( ".append_video" ).remove();
-            $('.open_video').removeClass("disabled");
-            
+
+            $(".append_video").removeClass( "show" );
+            $(".append_video").addClass( "hide" );
         });
     }
 
@@ -111,18 +99,6 @@
         appendArrows: $(".fragnance-slider-content"),
         prevArrow: '<div class="slider-nav-left"></div>',
         nextArrow: '<div class="slider-nav-right"></div>',
-    });
-    
-    // modal carousel js code
-    $('.modal-one').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: false,
-        focusOnSelect: true,
-        draggable: true,
-        infinite: true,
-        prevArrow:'<a class="modal-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>',
-        nextArrow:'<a class="modal-next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>'
     });
 
 

@@ -1,14 +1,32 @@
 1 	index.html
 
+	http://www.dior.com/home/en_gb
+
 2 	the-crafts.html
+
+	http://www.dior.com/couture/en_gb/the-house-of-dior/the-crafts
+
 
 3.	haute-couture.html
 
+	http://www.dior.com/couture/de_de/das-haus-dior/die-know-hows/haute-couture
+
 4. 	das-haus-dior.html
 
+	http://www.dior.com/couture/de_de/das-haus-dior
 
-working now
+5. one section ,, gallery pop up incompleate 
 5	article-cannes.html 
 
+	http://www.dior.com/diormag/de_de/article/cannes-2017
 
+6. 	dior_skincare_how_to.html
+
+	http://www.dior.com/beauty/de_de/th/dior_skincare_how_to.html
+	
+7. trendsvip.html
+
+	http://trendsvip.com/
+	
+	
 
