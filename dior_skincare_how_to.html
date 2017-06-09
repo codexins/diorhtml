@@ -343,7 +343,7 @@
 		</section>
 		<section class="intensive-techniques ">
 			<div class="grid container">
-				<div class="row">
+				<div class="row one_row">
 					<div class="col col-sm-offset-1 col-sm-10">
 						<div class="row ">
 							<div class="col col-sm-12">
@@ -372,7 +372,7 @@
 							</div>
 							<div class="col col-sm-4">
 								<div class="maz-grid-item maz-grid1-3 maz-thumb" data-view-id="video_apply_capture_totale_la_creme">
-								    <a href="#">
+								    <a href="#" class="open_video">
 								        <!-- ILLUSTRATION -->
 								        <div class="maz-visuel">
 								            <span data-picture="" data-class="maz-rwd-img">
@@ -389,7 +389,7 @@
 							</div>
 							<div class="col col-sm-4">
 								<div class="maz-grid-item maz-grid1-3 maz-thumb" data-view-id="video_apply_capture_totale_la_creme">
-								    <a href="#">
+								    <a href="#" class="open_video">
 								        <!-- ILLUSTRATION -->
 								        <div class="maz-visuel">
 								            <span data-picture="" data-class="maz-rwd-img">
@@ -404,12 +404,16 @@
 								    </a>
 								</div>
 							</div>
-							<div class="append_video"></div>
 						</div>
-						<div class="row border-bottom-news">
+					</div>
+<!-- 					<div class="append_video"></div> -->
+				</div>
+				<div class="row one_row">
+					<div class="col col-sm-offset-1 col-sm-10">
+						<div class="row border-bottom-news ">
 							<div class="col col-sm-4">
 								<div class="maz-grid-item maz-grid1-3 maz-thumb" data-view-id="video_apply_capture_totale_la_creme">
-								    <a href="#">
+								    <a href="#"  class="open_video">
 								        <!-- ILLUSTRATION -->
 								        <div class="maz-visuel">
 								            <span data-picture="" data-class="maz-rwd-img">
@@ -426,7 +430,7 @@
 							</div>
 							<div class="col col-sm-4">
 								<div class="maz-grid-item maz-grid1-3 maz-thumb" data-view-id="video_apply_capture_totale_la_creme">
-								    <a href="#">
+								    <a href="#"  class="open_video">
 								        <!-- ILLUSTRATION -->
 								        <div class="maz-visuel">
 								            <span data-picture="" data-class="maz-rwd-img">
@@ -443,7 +447,7 @@
 							</div>
 							<div class="col col-sm-4">
 								<div class="maz-grid-item maz-grid1-3 maz-thumb" data-view-id="video_apply_capture_totale_la_creme">
-								    <a href="#">
+								    <a href="#"  class="open_video">
 								        <!-- ILLUSTRATION -->
 								        <div class="maz-visuel">
 								            <span data-picture="" data-class="maz-rwd-img">
@@ -459,7 +463,13 @@
 								</div>
 							</div>
 						</div>
-						<div class="row">
+					</div>
+				</div>
+
+				<div class="row one_row">
+					<div class="col col-sm-offset-1 col-sm-10">
+
+						<div class="row ">
 							<div class="col col-sm-12">
 								<div class="news-title">
 									<h2 class="maz-strate-title">INTENSIVE TECHNIQUES SPECIFICALLY DESIGNED FOR DIOR SKINCARE</h2>
@@ -469,7 +479,7 @@
 							</div>
 							<div class="col col-sm-4">
 								<div class="maz-grid-item maz-grid1-3 maz-thumb" data-view-id="video_apply_capture_totale_la_creme">
-								    <a href="#" >
+								    <a href="#"  class="open_video">
 								        <!-- ILLUSTRATION -->
 								        <div class="maz-visuel">
 								            <span data-picture="" data-class="maz-rwd-img">
@@ -487,7 +497,7 @@
 							</div>
 							<div class="col col-sm-4">
 								<div class="maz-grid-item maz-grid1-3 maz-thumb" data-view-id="video_apply_capture_totale_la_creme">
-								    <a href="#">
+								    <a href="#"  class="open_video">
 								        <!-- ILLUSTRATION -->
 								        <div class="maz-visuel">
 								            <span data-picture="" data-class="maz-rwd-img">
@@ -601,132 +611,112 @@
 
 	<!-- this video will be display when click image or title -->
 	<div class="append" >
-		<div class="shown bg-video ">
-			<div class="row">
-				<div class="col bg-white">
-					<button id="closs_video" class="closs2 closs_btn">X</button>
-					<div class="col col-sm-8">
-	 					<div class="video-area video-area-skincare">
-							 <video id="my-video" class="video-js " controls preload="auto" poster="img/video-poster.jpg" data-setup="{}">
-								    <source src="video/craft-video.mp4" type='video/mp4'>
-								    <source src="video/craft-video.mp4" type='video/webm'>
-								    <p class="vjs-no-js">
-								      To view this video please enable JavaScript, and consider upgrading to a web browser that
-								      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-								    </p>
-							  </video>
-						</div>
-						<div class="maz-video-infos maz-video-without-product">
-                            <h3 class="maz-videoproduct-video-title">Dior Skincare How To - Dior Prestige La Crème anwenden</h3>
+		<div class="append_video">
+			<div class="col">	
+				<div class="shown-video bg-video ">
+					<div class="col col-sm-offset-1 col-sm-10">
+						<div class="col bg-white appended">
+							<div class="row">
+								<button id="closs_video" class="closs2 closs_btn">X</button>
+								<div class="col col-sm-8">
+				 					<div class="video-area video-area-skincare">
+										 <video id="my-video" class="video-js " controls preload="auto" poster="img/video-poster.jpg" data-setup="{}">
+											    <source src="video/craft-video.mp4" type='video/mp4'>
+											    <source src="video/craft-video.mp4" type='video/webm'>
+											    <p class="vjs-no-js">
+											      To view this video please enable JavaScript, and consider upgrading to a web browser that
+											      <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+											    </p>
+										  </video>
+									</div>
+									<div class="maz-video-infos maz-video-without-product">
+			                            <h3 class="maz-videoproduct-video-title">Dior Skincare How To - Dior Prestige La Crème anwenden</h3>
 
-                            <p class="maz-videoproduct-video-description">Die Technik des Instituts Dior, um das wohlige Gefühl eines Teints so zart wie ein Rosenblatt zu erleben.</p>
+			                            <p class="maz-videoproduct-video-description">Die Technik des Instituts Dior, um das wohlige Gefühl eines Teints so zart wie ein Rosenblatt zu erleben.</p>
 
-                            <div class="maz-videoproduct-video-tags">
-                                <a class="maz-videoproduct-video-tag" href="">#DiorSkincareHowTo</a>
-                            </div>
-                        </div>
-					</div>
-					<div class="col col-sm-4">
-						<div class="desc-are shown">
-							<h2>VERWENDETE PRODUKTE</h2>
-							<img src="img/skincare/dddd.png" alt="">
-								<div class="video-dsc">
-
-									<hgroup class="product-hgroup">
-					                    <h2 class="product-title">Dior Prestige</h2>
-					                    <h3 class="product-subtitle">La Crème – Texture essentielle</h3>
-					                    <p>50 mL</p>
-					                </hgroup>
-									<span><a href="#">entdecken</a></span>	
+			                            <div class="maz-videoproduct-video-tags">
+			                                <a class="maz-videoproduct-video-tag" href="">#DiorSkincareHowTo</a>
+			                            </div>
+			                        </div>
 								</div>
+								<div class="col col-sm-4">
+									<div class="desc-are shown">
+										<h2>VERWENDETE PRODUKTE</h2>
+										<img src="img/skincare/dddd.png" alt="">
+											<div class="video-dsc">
+
+												<hgroup class="product-hgroup">
+								                    <h2 class="product-title">Dior Prestige</h2>
+								                    <h3 class="product-subtitle">La Crème – Texture essentielle</h3>
+								                    <p>50 mL</p>
+								                </hgroup>
+												<span><a href="#">entdecken</a></span>	
+											</div>
+									</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="col bg-white appended">
+							<div class="row ">
+								<div class=" col-sm-4">
+									<div class="desc-are shown">
+										<h2>VERWENDETE PRODUKTE</h2>
+										<img src="img/skincare/v.png" alt="">
+											<div class="video-dsc">
+
+												<hgroup class="product-hgroup">
+								                    <h2 class="product-title">Dior Prestige</h2>
+								                    <h3 class="product-subtitle">La Crème – Texture essentielle</h3>
+								                    <p>50 mL</p>
+								                </hgroup>
+												<span><a href="#">entdecken</a></span>	
+											</div>
+									</div>
+								</div>
+								<div class=" col-sm-4">
+									<div class="desc-are shown">
+										<h2>VERWENDETE PRODUKTE</h2>
+										<img src="img/skincare/v2.png" alt="">
+											<div class="video-dsc">
+
+												<hgroup class="product-hgroup">
+								                    <h2 class="product-title">Dior Prestige</h2>
+								                    <h3 class="product-subtitle">La Crème – Texture essentielle</h3>
+								                    <p>50 mL</p>
+								                </hgroup>
+												<span><a href="#">entdecken</a></span>	
+											</div>
+									</div>
+								</div>
+								<div class=" col-sm-4">
+									<div class="desc-are shown">
+										<h2>VERWENDETE PRODUKTE</h2>
+										<img src="img/skincare/packshots-3348901243537.png" alt="">
+											<div class="video-dsc">
+
+												<hgroup class="product-hgroup">
+								                    <h2 class="product-title">Dior Prestige</h2>
+								                    <h3 class="product-subtitle">La Crème – Texture </h3>
+								                    <p>£122.00 - 15 mL</p>
+								                </hgroup>
+												<span><a href="#">entdecken</a></span>	
+											</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
+					<button id="closs_video2" class="closs2 maz-btn-close js-maz-close maz-fold-up ">
+			            <div class="maz-sprite-unfold"></div>
+			            <span class="maz-p1">close</span>
+			        </button>
 				</div>
+
 			</div>
-			<div class="row ">
-				<div class="col bg-white">
-					<div class=" col-sm-4">
-						<div class="desc-are shown">
-							<h2>VERWENDETE PRODUKTE</h2>
-							<img src="img/skincare/v.png" alt="">
-								<div class="video-dsc">
-
-									<hgroup class="product-hgroup">
-					                    <h2 class="product-title">Dior Prestige</h2>
-					                    <h3 class="product-subtitle">La Crème – Texture essentielle</h3>
-					                    <p>50 mL</p>
-					                </hgroup>
-									<span><a href="#">entdecken</a></span>	
-								</div>
-						</div>
-					</div>
-					<div class=" col-sm-4">
-						<div class="desc-are shown">
-							<h2>VERWENDETE PRODUKTE</h2>
-							<img src="img/skincare/v2.png" alt="">
-								<div class="video-dsc">
-
-									<hgroup class="product-hgroup">
-					                    <h2 class="product-title">Dior Prestige</h2>
-					                    <h3 class="product-subtitle">La Crème – Texture essentielle</h3>
-					                    <p>50 mL</p>
-					                </hgroup>
-									<span><a href="#">entdecken</a></span>	
-								</div>
-						</div>
-					</div>
-					<div class=" col-sm-4">
-						<div class="desc-are shown">
-							<h2>VERWENDETE PRODUKTE</h2>
-							<img src="img/skincare/packshots-3348901243537.png" alt="">
-								<div class="video-dsc">
-
-									<hgroup class="product-hgroup">
-					                    <h2 class="product-title">Dior Prestige</h2>
-					                    <h3 class="product-subtitle">La Crème – Texture </h3>
-					                    <p>£122.00 - 15 mL</p>
-					                </hgroup>
-									<span><a href="#">entdecken</a></span>	
-								</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<button id="closs_video2" class="closs2 maz-btn-close js-maz-close maz-fold-up ">
-	            <div class="maz-sprite-unfold"></div>
-	            <span class="maz-p1">close</span>
-	        </button>
 		</div>
 	</div>
 
-
-
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button> -->
-
-<!-- Modal -->
-<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				<h4 class="modal-title" id="myModalLabel">Modal title</h4>
-			</div>
-			<div class="modal-body">
-			...
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
-			</div>
-		</div>
-	</div>
-</div>
- -->
 
 
 

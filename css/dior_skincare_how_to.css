@@ -196,7 +196,7 @@ span.maz-p1 {
     width: 100%;
 }
 
-.append_video .shown {
+.append_video .shown-video  {
     width: 100%;
 }
 .append{
@@ -204,4 +204,15 @@ span.maz-p1 {
 }
 .append_video .bg-video{
 	margin: 0;
+    margin-bottom: 50px;
+}
+.shown.bg-video > .col{
+    padding: 0;
+}
+.appended {
+    padding: 30px 20px;
+}
+.appended + .appended  {
+    margin-bottom: 108px;
+    margin-top: 0;
 }
