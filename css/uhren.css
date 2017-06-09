@@ -17,6 +17,56 @@
 
 /* uhren section three css area start */
 .uhren-section-three {
-	background: url(../img/expertise-soin/expertise-soin-row1.jpg) center center/cover no-repeat #ccc;
+	background: url(../img/uhren/uhren-row3-bg.jpg) center center/cover no-repeat #ccc;
 }
+.uhren-section-three-top {
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	padding: 60px 0;
+    position: relative;
+}
+.uhren-section-three-top p {
+	margin-bottom: 0;
+}
+.uhren-section-three-top p strong {
+	margin: 0 0 6px;
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.uhren-section-three-top h3 {
+	margin: 0 0 26px;
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.uhren-section-three-top p.novelty-intro {}
+
+.uhren-product-container {
+	padding-bottom: 60px;
+}
+
+.uhren-prduct-content {
+	background-color: #fff;
+}
+.uhren-product-image {
+	display: block;
+}
+.uhren-product-image img {}
+.uhren-prduct-info {
+    display: block;
+    padding: 40px 40px 20px 40px;
+    text-transform: uppercase;
+}
+.uhren-prduct-info p {
+	margin-bottom: 0;
+}
+.uhren-prduct-info span {
+	display: block;
+}
+.uhren-product-btn {
+	margin: 0px 40px 40px 40px;
+}
+
 /* uhren section three css area end */

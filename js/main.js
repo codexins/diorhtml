@@ -45,6 +45,18 @@
         prevArrow: '<div class="slider-nav-left"></div>',
         nextArrow: '<div class="slider-nav-right"></div>',
     });
+    
+    // modal carousel js code
+    $('.modal-one').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        focusOnSelect: true,
+        draggable: true,
+        infinite: true,
+        prevArrow:'<a class="modal-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>',
+        nextArrow:'<a class="modal-next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>'
+    });
 
 
 
