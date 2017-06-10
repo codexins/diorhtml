@@ -211,8 +211,12 @@ span.maz-p1 {
 }
 .appended {
     padding: 30px 20px;
+    width: 100%;
 }
 .appended + .appended  {
     margin-bottom: 108px;
     margin-top: 0;
+}
+.modal-lg .bg-video {
+    margin: 20px 0;
 }

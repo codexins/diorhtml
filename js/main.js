@@ -18,6 +18,7 @@
             $(".shown").addClass( "show" );
 
      });
+    
      $(".closs").click(function(e) {
             e.preventDefault();
 
@@ -29,49 +30,73 @@
      });
 
 
-    $( ".open_video" ).click(function(e) {
-        e.preventDefault();
-       
-        if (!$(this).hasClass('disabled')) {
 
-            var htmlString = $( ".append" ).html();
-            $(this).parents( ".one_row" ).append( htmlString );
-
-            // $('.open_video').click(function(){return false;});
-            $('.open_video').addClass("disabled");
-
-            $('html,body').animate({
-                scrollTop: $(".append_video").offset().top},
-                'slow');
-        
-        }
-        // else{
-        // $(".closs2").click(function(e) click korate hbe 
-        // }
-
-        close_append();
-    });
+    // $( ".open_video" ).click(function(e) {
+    //     e.preventDefault();
+    //     var htmlString = $( ".append" ).html();
+    //     $( '.append_video' ).html( htmlString );
+    //     $(".append_video").removeClass( "hide" );
+    //     $(".append_video").addClass( "show" );
+    //     close_append();
+    // });
 
 
     // $(".open_video").click(function() {
-        
+    //     $('html,body').animate({
+    //         scrollTop: $(".append_video").offset().top},
+    //         'slow');
     // });
 
-    function close_append(){
-        $(".closs2").click(function(e) {
-            e.preventDefault();
-            $(this).parents( ".append_video" ).remove();
-            $('.open_video').removeClass("disabled");
+    // function close_append(){
+    //     $(".closs2").click(function(e) {
+    //         e.preventDefault();
+
+    //         $(".append_video").removeClass( "show" );
+    //         $(".append_video").addClass( "hide" );
+    //     });
+    // }
+
+
+
+
+
+
+    // $( ".open_video" ).click(function(e) {
+    //     e.preventDefault();
+       
+    //     if (!$(this).hasClass('disabled')) {
+
+    //         var htmlString = $( ".append" ).html();
+    //         $(this).parents( ".one_row" ).find('.append_video').html( htmlString );
+
+    //         // $('.open_video').click(function(){return false;});
+    //         $('.open_video').addClass("disabled");
+
+    //         $('html,body').animate({
+    //             scrollTop: $(".append_video").offset().top},
+    //             'slow');
+        
+    //     }
+    //     // else{
+    //     // $(".closs2").click(function(e) click korate hbe 
+    //     // }
+
+    //     close_append();
+    // });
+
+
+    // // $(".open_video").click(function() {
+        
+    // // });
+
+    // function close_append(){
+    //     $(".closs2").click(function(e) {
+    //         e.preventDefault();
+    //         $(this).parents( ".col" ).addClass('hide');
+    //         $('.open_video').removeClass("disabled");
             
-        });
-    }
-
-
-
-
-
-
-
+    //     });
+    // }
 
 
 	$(".slick-slider").slick({
@@ -163,7 +188,33 @@
     });
 
 
+    // footer coloumn 
+    $(".Instamoments-slide").slick({
+        // normal options...,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows:false,
+        autoplaySpeed: 2000,
+        // infinite:true,
+        // the magic
 
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 5,
+                infinite: true
+            }
+        }, {
+            breakpoint: 600,
+            settings: {
+
+                slidesToShow: 4,
+
+                dots: true
+            }
+        }]
+    });
     // Example with single object
     $("#video-popup").magnificPopup({
         items: {
