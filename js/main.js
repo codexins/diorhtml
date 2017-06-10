@@ -6,7 +6,18 @@
 
 
 
-       
+
+    $(".full-wide").click(function(e) {
+            e.preventDefault();
+            $(".full-wide-body").addClass( "do-fix" );
+     });
+     $(".closs_popup").click(function(e) {
+            e.preventDefault();
+            $(".full-wide-body").removeClass( "do-fix" );
+     });
+
+
+
 
     $("#plus-icon").click(function(e) {
             e.preventDefault();
@@ -176,6 +187,35 @@
                 dots: true
             }
         }]
+    });
+
+    $('.slick-03').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        fade:true,
+        prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+        nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+
+    });
+
+
+    $('.slick-01').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slick-02'
+    });
+
+    $('.slick-02').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slick-01',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true,
+        vertical:true
     });
 
 

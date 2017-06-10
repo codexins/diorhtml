@@ -156,3 +156,92 @@
 .video-dsc{
     padding-top: 80px;
 }
+.one{
+    width: 100%;
+    line-height: 300px;
+    text-align: center;
+    height: 100px;
+    float: left;
+    background: #000 ;
+    color: #fff;
+    margin: 10px;
+}
+.slick-01 .one{
+    height: 400px;
+}
+.slick-02 .one{
+        height: 100px;
+        width: 100%;
+}
+.slick-03{
+    padding-bottom: 80px;
+}
+.slick-03 button.slick-arrow {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: auto;
+    transform: translateX(-200px);
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background: none;
+    color: #000 ;
+    font-size: 50px;
+    line-height: 50px;
+}
+.slick-03 button.slick-arrow:focus {
+    outline: none;
+}
+.slick-03 button.slick-next.slick-arrow{
+    left: inherit;
+    right: 50%;
+    transform: translateX(200px);
+}
+.curosel-setting{
+    position: relative;
+}
+.full-wide {
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.full-wide-body{
+    position: fixed;
+    background: #fff;
+    right: 0px;
+    top: 0px;
+    z-index: 99999999999;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #000;
+    transition: 0.9s;
+    opacity: 0;
+    visibility: hidden;
+    padding: 50px 80px;
+}
+.slick-gallery .do-fix {
+
+    opacity: 1;
+    visibility: visible;
+}
+.closs_popup{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 50px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.positioning{
+    position: relative;
+}

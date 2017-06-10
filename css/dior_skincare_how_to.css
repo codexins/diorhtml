@@ -106,7 +106,7 @@ hgroup.product-hgroup {
     display: inline-block;
     margin: 30px 0;
     position: relative;
-
+    width: 100%;
 }
 .mrg{
     margin-bottom: 130px;
@@ -139,7 +139,8 @@ p.maz-videoproduct-video-description{
     height: 26px;
     border: 1px solid #e5e5e5;
 }
-.closs:focus{
+button.closs2:focus,
+.close.closs_btn:focus{
 	outline: 0 ;
 }
 h3.maz-title.maz-h3 {
