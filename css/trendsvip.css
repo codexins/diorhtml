@@ -417,4 +417,16 @@
 .Instamoments-slide-area{
     background: #e6e6e6;
     padding: 20px 0;
+
 }
+
+.Instamoments-slide {
+    padding-bottom: 30px;
+}
+.modal-lg.video {
+    width: 1084px;
+}
+.closs_btn:focus {
+    outline: 0;
+}
+
