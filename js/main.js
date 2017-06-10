@@ -5,6 +5,7 @@
 	"use strict";
 
 
+   
 
        
 
@@ -118,13 +119,21 @@
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
-        focusOnSelect: true,
         draggable: true,
         infinite: true,
         prevArrow:'<a class="modal-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>',
         nextArrow:'<a class="modal-next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>'
     });
 
+     // $('#overflow-box').on('shown.bs.modal', function () {
+    $('#overflow-box').on('click', function () {
+        $('.modal-one').slick('resize');
+    });
+    
+
+    // $('.overflow-box').on('show.bs.modal', function (e) {
+    //   $('.modal-one').resize(0);
+    // });
 
 
     // FINE SOFT DRESSMAKING
@@ -222,6 +231,8 @@
             scrollTop: $(".ongoing").offset().top},
             'slow');
     });
+
+    
     
     // sticky nav scroll
 
@@ -268,6 +279,27 @@
             scrollTop: $(".archive").offset().top},
             'slow');
     });
+
+    // expertise-soin Scroll button
+    $(".ex-dior-garden").click(function(e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(".section-garden").offset().top},
+            'slow');
+    });
+    $(".ex-dior-science").click(function(e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(".section-science").offset().top},
+            2000);
+    });
+    $(".ex-dior-hand").click(function(e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $(".section-hand").offset().top},
+            1500);
+    });
+
     // sticky nav scroll for haute-couture.html
 
     $( ".sticky-introduction" ).hover(

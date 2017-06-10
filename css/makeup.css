@@ -184,6 +184,23 @@
 .makeup-section-four-image:before {
 
 }
+
+/*#overflow-box-one {
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+}*/
+/*.in .slick-track,*/
+/*.slick-cloned {
+    width: 100% !important;
+}*/
+/*.slick-track {
+    width: 100% !important;
+}*/
+/*.slick-slide {
+    width: 100% !important;
+}*/
+
 .overflow-box {
 	position: absolute;
     top: 25px;
