@@ -66,13 +66,6 @@
     }
 
 
-
-
-
-
-
-
-
 	$(".slick-slider").slick({
 		// normal options...
 		infinite: false,
@@ -142,7 +135,33 @@
     });
 
 
+    // footer coloumn 
+    $(".Instamoments-slide").slick({
+        // normal options...,
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows:false,
+        autoplaySpeed: 2000,
+        // infinite:true,
+        // the magic
 
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 5,
+                infinite: true
+            }
+        }, {
+            breakpoint: 600,
+            settings: {
+
+                slidesToShow: 4,
+
+                dots: true
+            }
+        }]
+    });
     // Example with single object
     $("#video-popup").magnificPopup({
         items: {
