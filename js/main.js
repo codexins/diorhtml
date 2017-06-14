@@ -214,7 +214,10 @@
         slidesToScroll: 1,
         arrows: false,
         fade: true,
-        asNavFor: '.slick-02'
+        asNavFor: '.slick-02',
+        prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
+        nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
+
     });
 
     $('.slick-02').slick({
@@ -223,8 +226,12 @@
         asNavFor: '.slick-01',
         dots: false,
         centerMode: true,
+        
         focusOnSelect: true,
-        vertical:true
+        vertical:true,
+        prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-up" aria-hidden="true"></i></button>',
+        nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-down" aria-hidden="true"></i></button>',
+
     });
 
 

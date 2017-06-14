@@ -169,9 +169,18 @@
 .slick-01 .one{
     height: 400px;
 }
-.slick-02 .one{
-        height: 100px;
-        width: 100%;
+.slick-03 .one {
+    height: auto;
+    max-height: 400px;
+}
+.one:focus{
+    outline: none;
+}
+.slick-02 .one {
+    height: 100px;
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
 }
 .slick-03{
     padding-bottom: 80px;
@@ -225,7 +234,11 @@
     transition: 0.9s;
     opacity: 0;
     visibility: hidden;
-    padding: 50px 80px;
+    padding-left: 50px;
+}
+.slick-01 {
+    padding: 50px 60px;
+    margin-left: 50px;
 }
 .slick-gallery .do-fix {
 
@@ -244,4 +257,27 @@
 }
 .positioning{
     position: relative;
+}
+.slick-02 button.slick-prev.slick-arrow {
+    margin-bottom: 30px;
+}
+.slick-02 button.slick-next.slick-arrow {
+    margin-top: 30px;
+}
+.slick-02 button.slick-arrow {
+    background: #fff;
+    border: 0;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 35px;
+}
+.slick-02 button.slick-arrow:focus{
+    outline: none;
+}
+.slick-slide img {
+    width: 100%;
+}
+.one{
+    cursor: pointer;
 }
