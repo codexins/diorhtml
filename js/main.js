@@ -42,72 +42,6 @@
 
 
 
-    // $( ".open_video" ).click(function(e) {
-    //     e.preventDefault();
-    //     var htmlString = $( ".append" ).html();
-    //     $( '.append_video' ).html( htmlString );
-    //     $(".append_video").removeClass( "hide" );
-    //     $(".append_video").addClass( "show" );
-    //     close_append();
-    // });
-
-
-    // $(".open_video").click(function() {
-    //     $('html,body').animate({
-    //         scrollTop: $(".append_video").offset().top},
-    //         'slow');
-    // });
-
-    // function close_append(){
-    //     $(".closs2").click(function(e) {
-    //         e.preventDefault();
-
-    //         $(".append_video").removeClass( "show" );
-    //         $(".append_video").addClass( "hide" );
-    //     });
-    // }
-
-
-
-
-
-
-    // $( ".open_video" ).click(function(e) {
-    //     e.preventDefault();
-       
-    //     if (!$(this).hasClass('disabled')) {
-
-    //         var htmlString = $( ".append" ).html();
-    //         $(this).parents( ".one_row" ).find('.append_video').html( htmlString );
-
-    //         // $('.open_video').click(function(){return false;});
-    //         $('.open_video').addClass("disabled");
-
-    //         $('html,body').animate({
-    //             scrollTop: $(".append_video").offset().top},
-    //             'slow');
-        
-    //     }
-    //     // else{
-    //     // $(".closs2").click(function(e) click korate hbe 
-    //     // }
-
-    //     close_append();
-    // });
-
-
-    // // $(".open_video").click(function() {
-        
-    // // });
-
-    // function close_append(){
-    //     $(".closs2").click(function(e) {
-    //         e.preventDefault();
-    //         $(this).parents( ".col" ).addClass('hide');
-    //         $('.open_video').removeClass("disabled");
-            
-    //     });
-    // }
 
 
 	$(".slick-slider").slick({
@@ -212,8 +146,11 @@
     $('.slick-01').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false,
+        arrows: true,
+        centerMode: true,
         fade: true,
+        // variableWidth: true,
+        adaptiveHeight: true,
         asNavFor: '.slick-02',
         prevArrow:'<button type="button" class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></button>',
         nextArrow:'<button type="button" class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></button>',
