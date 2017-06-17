@@ -230,19 +230,22 @@
     border: 1px solid #ccc;
     cursor: pointer;
 }
-.full-wide-body{
+.full-wide-body {
     position: fixed;
     background: #fff;
-    right: 20px;
+    right: 0px;
     top: 0px;
     z-index: 99999999999;
-    left: 20px;
+    left: 0px;
     bottom: 0px;
     border: 0px solid #000;
     transition: 0.9s;
     opacity: 0;
     visibility: hidden;
-    padding-left: 50px;
+    max-width: 1400px;
+    margin: auto;
+    max-height: 1000px;
+
 }
 .slick-01 {
     padding: 25px 60px;
@@ -253,15 +256,25 @@
     opacity: 1;
     visibility: visible;
 }
+
+.slick-gallery .grid.container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .closs_popup{
     width: 50px;
     height: 50px;
     position: absolute;
-    left: 0;
+    left: 50px;
     top: 0;
-    line-height: 50px;
+    line-height: 35px;
     font-size: 50px;
     cursor: pointer;
+    text-align: center;
+    z-index: 999;
+
 }
 .positioning{
     position: relative;
@@ -322,3 +335,16 @@ li.full-wide{
     text-transform: uppercase;
     padding: 20px 0;
 }
+.slick-gallery-main{
+    width: 100%;
+    display: inline-block;
+}
+
+/*.full-wide-body .single-blog {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    bottom: 100px;
+}*/
