@@ -5,7 +5,68 @@
 	"use strict";
 
 
-   
+
+    // var options = {
+    //     "controls": true, 
+    //     "autoplay": true,
+    //      "preload": "auto"
+
+
+    // };
+
+    // var player = videojs('my-video2', options, function onPlayerReady() {
+    //   videojs.log('Your player is ready!');
+
+    //   // In this context, `this` is the player that was created by Video.js.
+    //   this.play();
+
+    //   // How about an event listener?
+    //   this.on('ended', function() {
+    //     videojs.log('Awww...over so soon?!');
+    //   });
+    // });
+
+
+
+
+
+   // // video popup area 
+   //  $("#fragnance-row-two").on("click", function(e) {
+   //      $("#yourDivID").removeClass("hide");
+   //      $("#yourDivID").addClass("show");
+
+   //    var  newHtml = $(".video-popup-area").html();
+   //    // alert(newHtml);
+   //     $("#yourDivID").append(newHtml);
+
+
+
+
+   //       // video popup area 
+   //      $(".close-video").on("click", function(e) {
+   //          $("#yourDivID").removeClass("show");
+   //          $("#yourDivID").addClass("hide");
+   //          $("#yourDivID .select-all").remove();
+
+   //      });
+   //  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     $(".full-wide").click(function(e) {
@@ -208,12 +269,31 @@
     });
 
 
-    $('#fragnance-row-two').magnificPopup({
-        items: {
-            src: 'video/fragnance-row2-video2.mp4',
-          },
-       type: 'iframe' // this overrides default type
-    });
+    // $('#fragnance-row-two').magnificPopup({
+    //     items: {
+    //         src: 'video/fragnance-row2-video2.mp4',
+    //       },
+    //    type: 'iframe' // this overrides default type
+    // });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     $('#fragnance-row-three-one').magnificPopup({
         items: {
